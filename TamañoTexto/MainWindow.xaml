@@ -8,6 +8,7 @@
         Title="Tamaño texto" Height="450" Width="800"
         Icon="assets/back_letter.ico">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="80,28,0,0" TextWrapping="Wrap" Text="Desarrollo de Interfaces" VerticalAlignment="Top" Height="84" Width="598" FontSize="36" FontWeight="Bold"/>
+
     </Grid>
 </Window>
