@@ -24,5 +24,12 @@ namespace TamañoTexto
         {
             InitializeComponent();
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton tamaño = (RadioButton)sender;
+
+            mensajeTextBlock.FontSize = double.Parse(tamaño.Tag.ToString());
+        }
     }
 }
